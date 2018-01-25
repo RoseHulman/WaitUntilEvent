@@ -97,7 +97,7 @@ def print_an_integer_many_times_on_one_row():
     string = ''
     posint = int(input('Enter an integer:'))
     for k in range(posint):
-        string = string + [posint*2]
+        string = string + 'posint*2'
     print(string)
 
 
@@ -134,9 +134,18 @@ def input_it_all():
          Peace & Love.
     """
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # Done: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+
+    flo = float(input('Enter a positive floating number:'))
+    integer = int(input('Enter a positive integer:'))
+    string = str(input('Enter a string:'))
+
+    for k in range(integer):
+        print(flo**(1/2))
+    for j in range(integer):
+        print(string)
 
 
 # ----------------------------------------------------------------------
