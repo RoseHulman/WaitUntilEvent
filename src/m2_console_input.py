@@ -2,8 +2,8 @@
 This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Abbie.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -30,9 +30,12 @@ def double_a_float():
          -6.28
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # Done: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+
+    number = float(input('Enter a number:'))
+    print(number*2)
 
 
 def print_an_integer_many_times():
@@ -61,9 +64,13 @@ def print_an_integer_many_times():
          10
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+
+    posint = int(input('Enter an integer:'))
+    for k in range(posint):
+        print(posint*2)
 
 
 def print_an_integer_many_times_on_one_row():
@@ -86,6 +93,13 @@ def print_an_integer_many_times_on_one_row():
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # ------------------------------------------------------------------
+
+    string = ''
+    posint = int(input('Enter an integer:'))
+    for k in range(posint):
+        string = string + [posint*2]
+    print(string)
+
 
 
 def input_it_all():
