@@ -65,7 +65,7 @@ def input_a_string():
     name = input('Enter your name:')
     #-------------------------------------------------------------------
 
-    print('Hi, ' + name + '!  ', name, '!.  ', name)
+    print('Hi, ' + name +'! ', name, '!.  ', name)
     print('  Sorry, I have the hiccups...')
 
 
